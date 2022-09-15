@@ -1,4 +1,4 @@
-let fs = require('fs')
+inilet fs = require('fs')
 global.data = JSON.parse(fs.readFileSync('./data.json'))
 global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to /src/owner.json
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
@@ -29,9 +29,9 @@ global.APIKeys = { // APIKey Here
   'https://hardianto.xyz': 'hardianto',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
-global.packname = data.namabot
-global.author = data.owner
-global.wm = data.namabot + ' ' + data.owner
+global.packname = rdtyzbotz
+global.author = rdtya
+global.wm = rdtyzaabotzz
 
 global.multiplier = 100 // The higher, The harder levelup
 
